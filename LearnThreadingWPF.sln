@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.26730.16
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LearnThreadingWPF", "LearnThreadingWPF\LearnThreadingWPF.csproj", "{D8CE20AA-3CFE-4962-81CC-E302B8304987}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LearnThreadingWPF_BackgroundWorker", "LearnThreadingWPF\LearnThreadingWPF_BackgroundWorker.csproj", "{D8CE20AA-3CFE-4962-81CC-E302B8304987}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SMSEncryption_Thread", "SMSEncryption_Thread\SMSEncryption_Thread.csproj", "{D22D55EF-F901-430A-9C52-EC6CBE24A22F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{D8CE20AA-3CFE-4962-81CC-E302B8304987}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D8CE20AA-3CFE-4962-81CC-E302B8304987}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D8CE20AA-3CFE-4962-81CC-E302B8304987}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D22D55EF-F901-430A-9C52-EC6CBE24A22F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D22D55EF-F901-430A-9C52-EC6CBE24A22F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D22D55EF-F901-430A-9C52-EC6CBE24A22F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D22D55EF-F901-430A-9C52-EC6CBE24A22F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

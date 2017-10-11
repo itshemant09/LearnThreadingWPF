@@ -5,8 +5,31 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:LearnThreadingWPF"
         mc:Ignorable="d"
-        Title="MainWindow" Height="350" Width="525">
+        Title="MainWindow" Height="418.608" Width="671.165">
     <Grid>
-        
+        <TextBlock x:Name="txtnumber1" HorizontalAlignment="Left" Margin="54,60,0,0" TextWrapping="Wrap" Text="#1" VerticalAlignment="Top"/>
+        <TextBlock x:Name="txtnumber2" HorizontalAlignment="Left" Margin="54,106,0,0" TextWrapping="Wrap" Text="#2" VerticalAlignment="Top"/>
+        <TextBlock x:Name="txtnumber3" HorizontalAlignment="Left" Margin="54,154,0,0" TextWrapping="Wrap" Text="#3" VerticalAlignment="Top"/>
+        <TextBlock x:Name="txtnumber4" HorizontalAlignment="Left" Margin="54,199,0,0" TextWrapping="Wrap" Text="#4" VerticalAlignment="Top"/>
+        <TextBlock x:Name="txtcodebreaker" HorizontalAlignment="Left" TextWrapping="Wrap" Text="CodeBreaker" VerticalAlignment="Top" Margin="54,21,0,0"/>
+        <TextBlock x:Name="txtgame" HorizontalAlignment="Left" TextWrapping="Wrap" Text="Game!!!" VerticalAlignment="Top" Margin="355,21,0,0"/>
+        <Button x:Name="btnStart" Content="Start" HorizontalAlignment="Left" VerticalAlignment="Top" Width="75" RenderTransformOrigin="2.558,10.433" Margin="177,243,0,0" Click="btnStart_Click"/>
+        <Button x:Name="btnHide" Content="Hide" HorizontalAlignment="Left" VerticalAlignment="Top" Width="75" Margin="290,243,0,0" Click="btnHide_Click"/>
+        <Button x:Name="btnGameover" Content="GameOver" HorizontalAlignment="Left" VerticalAlignment="Top" Width="75" Margin="399,243,0,0" Click="btnGameover_Click"/>
+        <Image x:Name="imgSkull" HorizontalAlignment="Left" Height="100" VerticalAlignment="Top" Width="100" Margin="374,278,0,0" Source="Images/imgSkull.png"/>
+        <Image x:Name="imgAgent" HorizontalAlignment="Left" Height="100" VerticalAlignment="Top" Width="100" Margin="177,278,0,0" Source="Images/imgAgent.png"/>
+        <Image x:Name="imgFish3" HorizontalAlignment="Left" Height="100" VerticalAlignment="Top" Width="100" RenderTransformOrigin="1.442,1.003" Margin="512,60,0,0" Source="Images/Fish3.png"/>
+        <Image x:Name="imgFish1" HorizontalAlignment="Left" Height="100" VerticalAlignment="Top" Width="100" RenderTransformOrigin="2.505,1.251" Margin="307,60,0,0" Source="Images/Fish1.png"/>
+        <Image x:Name="imgFish2" HorizontalAlignment="Left" Height="100" VerticalAlignment="Top" Width="100" Margin="407,60,0,0" Source="Images/Fish2.png"/>
+        <TextBlock x:Name="txtoutput4" HorizontalAlignment="Left" Margin="132,199,0,0" TextWrapping="Wrap" Text="*" VerticalAlignment="Top"/>
+        <TextBlock x:Name="txtoutput3" HorizontalAlignment="Left" Margin="132,160,0,0" TextWrapping="Wrap" Text="*" VerticalAlignment="Top" RenderTransformOrigin="0.045,0.244"/>
+        <TextBlock x:Name="txtoutput1" HorizontalAlignment="Left" TextWrapping="Wrap" Text="*" VerticalAlignment="Top" Margin="132,60,0,0"/>
+        <TextBlock x:Name="txtoutput2" HorizontalAlignment="Left" TextWrapping="Wrap" Text="*" VerticalAlignment="Bottom" Margin="132,0,0,263" RenderTransformOrigin="0.588,0.425"/>
+        <ProgressBar x:Name="pgb1" HorizontalAlignment="Left" Height="10" VerticalAlignment="Top" Width="100" Margin="165,60,0,0"/>
+        <ProgressBar x:Name="pgb4" HorizontalAlignment="Left" Height="10" VerticalAlignment="Top" Width="100" Margin="165,199,0,0"/>
+        <ProgressBar x:Name="pgb3" HorizontalAlignment="Left" Height="10" VerticalAlignment="Top" Width="100" Margin="165,160,0,0"/>
+        <ProgressBar x:Name="pgb2" HorizontalAlignment="Left" Height="10" VerticalAlignment="Top" Width="100" Margin="165,106,0,0"/>
+        <Button x:Name="btnStop" Content="Stop" HorizontalAlignment="Left" VerticalAlignment="Top" Width="75" Margin="528,243,0,0" Click="btnStop_Click"/>
+
     </Grid>
 </Window>
